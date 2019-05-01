@@ -1,0 +1,32 @@
+main {
+    display: flex;
+flex-direction: column;
+align-items: center;
+margin-top: 10%;
+}
+ 
+h3 {
+
+  color: rgba(0, 128, 0, 0.589);
+}
+
+p {
+  caret-color: rgba(82, 76, 76, 0.342);
+}
+.parent {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.child {
+  margin-left: 5%;
+    width: 20%;
+    height: 110px;
+    border: 1px solid white;
+    background-color: rgba(192, 170, 170, 0.26);
+    text-align: center;
+
+}
